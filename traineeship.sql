@@ -29,7 +29,7 @@ SET time_zone = "+00:00";
 CREATE TABLE IF NOT EXISTS `keywords` (
   `id` int(11) NOT NULL,
   `name` varchar(255) NOT NULL,
-  `person_id` int(11) DEFAULT NULL
+  `person_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
